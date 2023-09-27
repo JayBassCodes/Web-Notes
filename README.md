@@ -9,4 +9,4 @@ Using this app will let you jot down those ideas and reminders that you think of
 
 
 This app uses express.js and a JSON file to save your notes online. 
-To install and use simply clone this repo to your local machine, install your npm packages with 'npm i' in the terminal, and open in a browser. You can also use the link to the Heroku deployment.
+To install and use simply clone this repo to your local machine, install your npm packages with 'npm i' in the terminal, and open in a browser. You can also use the link to the Heroku deployment here: https://note-taker-homework1-ada3e39224c6.herokuapp.com/notes
