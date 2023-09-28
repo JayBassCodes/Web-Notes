@@ -39,7 +39,7 @@ app.get('*', (req, res) => {
 app.delete("/api/notes/:id", function (req, res) {
     console.log(uuidv1())
     console.log("Req.params:", req.params);
-    let deletedNote = parseInt(req.params.id);
+    let deletedNote = req.params.id;
     console.log(deletedNote);
 
     for (let i = 0; i < dbJson.length; i++) {
